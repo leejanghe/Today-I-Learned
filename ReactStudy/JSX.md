@@ -22,8 +22,7 @@ function App() {
 }
 ```
 
-이런식으로 복잡하게 작성하게 됩니다. 이를 편하게 작성하기 위해 JSX를 사용합니다.
-
+이런식으로 복잡하게 작성하게 됩니다. 이를 편하게 작성하기 위해 JSX를 사용합니다.  
 
 
 ## JSX의 장점
@@ -36,7 +35,7 @@ function App() {
 
 ### 2. 높은 활용도
 
-JSX에서는 div나 span 같은 HTML 태그를 사용할 수 있을 뿐만 아니라 컴포넌트를 HTML 태그 쓰듯이 JSX 안에서 작성할 수 있습니다.
+JSX에서는 div나 span 같은 HTML 태그를 사용할 수 있을 뿐만 아니라 컴포넌트를 HTML 태그 쓰듯이 JSX 안에서 작성할 수 있습니다.  
 
 
 
@@ -44,7 +43,7 @@ JSX에서는 div나 span 같은 HTML 태그를 사용할 수 있을 뿐만 아�
 
 ---
 
-JSX는 편리한 문법이지만, 몇 가지 규칙을 준수해야 합니다.
+JSX는 편리한 문법이지만, 몇 가지 규칙을 준수해야 합니다.  
 
 ### class 대신 className
 
@@ -55,6 +54,7 @@ function App() {
 	return <h1 className="title">hello!!!</h1>
 }
 ```
+</br>
 
 ### JSX 표현
 
@@ -68,6 +68,7 @@ function App() {
 ```
 이렇게 하면 `hello joycoding`이 출력 됩니다.
 
+</br>
 
 ### 태크로 감싸주기
 
@@ -84,6 +85,7 @@ function App() {
     );
 }
 ```
+</br>
 
 ### 삼항연산자와 AND 연산자( && )를 사용한 조건부 렌더링
 
@@ -115,6 +117,7 @@ function App() {
     );
 }
 ```
+</br>
 
 ### undefined를 렌더링하지 않기
 리액트 컴포넌트에서는 undefined를 렌더링하는 상황을 만들면 오류가 발생하게 됩니다.
@@ -128,6 +131,7 @@ function() {
 OR 연산자는 전자가 true면 전자를 반환하고 false면 후자를 반환시킵니다.
 위의 코드는 undefined가 false로 인식되기 때문에 후자가 반환됩니다.
 
+</br>
 
 ### 인라인 스타일링
 리액트에서 스타일을 적용할 때는 객체 형태로 작성해야 합니다. 주의 할 점은 font-size 같은 - 문자가 포함되어 있는 속성은 -를 떼고 카멜 표기법으로 표기해줘야 합니다. ex) fontSize, backgroundColor
