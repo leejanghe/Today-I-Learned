@@ -34,7 +34,7 @@ i값이 순회하면서 각각 x값을 곱해서 배열안에 넣어주기!
 ## javascript
 
 ```js
-// #1 변수나눠서 풀기(substring)
+
 function solution(x, n) {
     let answer = [];
 
