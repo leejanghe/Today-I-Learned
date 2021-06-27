@@ -12,30 +12,30 @@
 
 > 2021-06-25
 - [프로그래머스 1단계 / 서울에서 김서방 찾기](./programmers/서울에서_김서방_찾기.md)
-- [ReactStudy / map으로 데이터 출력](./programmers/map으로_데이터_출력.md)
-- [ReactStudy / Props](./programmer/Props.md)
+- [ReactStudy / map으로 데이터 출력](./ReactStudy/map으로_데이터_출력.md)
+- [ReactStudy / Props](./ReactStudy/Props.md)
 
 > 2021-06-26
 - [프로그래머스 1단계 / 같은 숫자는 싫어](./programmers/같은_숫자는_싫어.md)
-- [ReactStudy / state(클래스와 함수형 비교)](./programmers/State(class와function).md)
+- [ReactStudy / state(클래스와 함수형 비교)](./ReactStudy/State(class와function).md)
 
 > 2021-06-25
 - [프로그래머스 1단계 / 두 정수 사이의 합](./programmers/두_정수_사이의_합.md)
-- [ReactStudy / JSX](./programmers/JSX.md)
-- [ReactStudy / 리엑트설치 및 폰트어썸 활용법](./programmers/리엑트_설치_및_폰트어썸_활용법.md)
+- [ReactStudy / JSX](./ReactStud/JSX.md)
+- [ReactStudy / 리엑트설치 및 폰트어썸 활용법](./ReactStud/리엑트_설치_및_폰트어썸_활용법.md)
 
 > 2021-06-24
 - [프로그래머스 1단계 / 약수의 합](./programmers/약수의_합.md)
-- [DailyStudy / 네트워크 기초](./programmers/네트워크_기초.md)
+- [DailyStudy / 네트워크 기초](./Dailystudy/네트워크_기초.md)
 
 > 2021-06-23
 - [프로그래머스 1단계 / 행렬의 덧셈](./programmers/행렬의_덧셈.md)
-- [DailyStudy / 프로미스 정리1](./programmers/프로미스_정리1.md)
-- [DailyStudy / 프로미스 정리2](./programmers/프로미스_정리2.md)
+- [DailyStudy / 프로미스 정리1](./Dailystudy/프로미스_정리1.md)
+- [DailyStudy / 프로미스 정리2](./Dailystudy/프로미스_정리2.md)
 
 > 2021-06-22
 - [프로그래머스 1단계 / 직사각형 별찍기](./programmers/직사각형_별찍기.md)
-- [DailyStudy / 동기적 처리와 비동기적 처리](./programmers/동기적_처리와_비동기적_처리.md)
+- [DailyStudy / 동기적 처리와 비동기적 처리](./Dailystudy/동기적_처리와_비동기적_처리.md)
 
 > 2021-06-21
 - [프로그래머스 1단계 / 콜라츠 추측](./programmers/콜라츠_추측.md)
