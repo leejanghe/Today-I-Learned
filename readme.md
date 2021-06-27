@@ -21,8 +21,8 @@
 
 > 2021-06-25
 - [프로그래머스 1단계 / 두 정수 사이의 합](./programmers/두_정수_사이의_합.md)
-- [ReactStudy / JSX](./ReactStud/JSX.md)
-- [ReactStudy / 리엑트설치 및 폰트어썸 활용법](./ReactStud/리엑트_설치_및_폰트어썸_활용법.md)
+- [ReactStudy / JSX](./ReactStudy/JSX.md)
+- [ReactStudy / 리엑트설치 및 폰트어썸 활용법](./ReactStudy/리엑트_설치_및_폰트어썸_활용법.md)
 
 > 2021-06-24
 - [프로그래머스 1단계 / 약수의 합](./programmers/약수의_합.md)
