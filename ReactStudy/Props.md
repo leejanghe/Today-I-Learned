@@ -14,7 +14,7 @@ props는 컴포넌트의 속성을 의미하며 외부로부터 전달받은 값
 2. props를 이용하여 정의된 값과 속성 전달<br />
 3. 전달 받은 props를 렌더링<br />
 <br />
-props는 상위컴포넌트로 부터 받아 왔고 위에 있는 3가지 단계를 이해하면 Props의 개념은 정말 쉽습니다!
+props는 상위컴포넌트로 부터 받아 왔고 위에 있는 3가지 단계를 이해하면 Props의 개념은 정말 쉽습니다!  
 <br />
 
 ### Probs 단계별예시 
@@ -32,12 +32,12 @@ function 상위컴포넌트(){
  const content = "Props 공부를 하고 있습니다!"
 
   return (
-    <>
+   
   <div>
     <하위컴포넌트 />
   </div>
-  </>
-     )
+  
+    )
 }
 
 function 하위컴포넌트(){
@@ -47,7 +47,8 @@ function 하위컴포넌트(){
 export default 상위컴포넌트
 ```
 <br />
-1단계는 하위 컴포넌트에 전달하고자 하는 값과 속성을 정의를 해야 합니다. 아래와 같이 name과 content를 정의 하였습니다.
+
+1단계는 하위 컴포넌트에 전달하고자 하는 값과 속성을 정의를 해야 합니다. 아래와 같이 name과 content를 정의 하였습니다.<br />
 
 ```js
 import React from 'react'
@@ -57,12 +58,12 @@ function 상위컴포넌트(){
  const content = "Props 공부를 하고 있습니다!"
 
   return (
-    <>
+
   <div>
-    <하위컴포넌트 name={name} content={content}/> // 여기부분
+    <하위컴포넌트 name={name} content={content}/> // 1단계
   </div>
-  </>
-     )
+  
+    )
 }
 
 function 하위컴포넌트(){
@@ -79,17 +80,15 @@ export default 상위컴포넌트
 ```js
 import React from 'react'
 
-function 상위컴포넌트(){
+function 상위컴포넌트(){ 
  const name = "Joycoding"
  const content = "Props 공부를 하고 있습니다!"
 
   return (
-    <>
   <div>
-    <하위컴포넌트 name={name} content={content}/> //1단계
+    <하위컴포넌트 name={name} content={content}/> // 1단계
   </div>
-  </>
-     )
+  )
 }
 
 function 하위컴포넌트(props){ // 2단계
