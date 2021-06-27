@@ -37,3 +37,38 @@ class count extends Component {
 
 export default count
 ```
+
+## State (function형식)
+위에 있는 클레스형을 함수형으로 변경해보는 작업을 하였습니다! 확실히 함수형 프로그래밍이 더 간결하고 로직이 편하다는 것을 알수가 있습니다!
+```js
+import React, { useState } from 'react'
+
+function Count(){
+
+  let [count, setCount] = useState(0)
+
+
+  let handleIncrement = () => {
+    setCount(count+1)
+  }
+
+  let handleDecrement = () => {
+    setCount(count < 1? 0:count-1)
+  }
+
+  return (
+    <li>
+    <span>count</span>
+    <span>{count}</span>
+    <button onClick={handleIncrement}>
+        <i className="fas fa-plus-square">증가</i>
+    </button>
+    <button onClick={handleDecrement}>
+        <i className="fas fa-minus-square">감소</i>
+    </button>
+    </li>
+     )
+}
+
+export default Count
+```
