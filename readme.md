@@ -9,6 +9,10 @@
 ---
 # 스터디 기록
 
+> 2021-06-29
+- [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/제일_작은수_제거하기.md)
+
+
 > 2021-06-28
 - [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/문자열을_정수로_바꾸기.md)
 - [ReactStudy / Lifting State Up](./ReactStudy/Lifting_State_up.md)
