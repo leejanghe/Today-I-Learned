@@ -12,6 +12,7 @@
 > 2021-06-29
 - [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/제일_작은수_제거하기.md)
 - [ReactStudy / Effect Hook](./ReactStudy/Effect_Hook.md)
+- [ReactStudy / AJAX요청과 LoadingPage.md](./ReactStudy/AJAX요청과_LoadingPage.md)
 
 > 2021-06-28
 - [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/문자열을_정수로_바꾸기.md)
