@@ -9,8 +9,11 @@
 ---
 # 스터디 기록
 
+> 2021-06-28
+- [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/문자열을_정수로_바꾸기.md)
 
-> 2021-06-25
+
+> 2021-06-27
 - [프로그래머스 1단계 / 서울에서 김서방 찾기](./programmers/서울에서_김서방_찾기.md)
 - [ReactStudy / map으로 데이터 출력](./ReactStudy/map으로_데이터_출력.md)
 - [ReactStudy / Props](./ReactStudy/Props.md)
