@@ -10,6 +10,10 @@
 # 스터디 기록
 
 > 2021-06-29
+- [프로그래머스 1단계 / 수박수박수박수박수박수?](./programmers/수박수박수박수박수박수?.md)
+
+
+> 2021-06-29
 - [프로그래머스 1단계 / 제일 작은수 제거하기](./programmers/제일_작은수_제거하기.md)
 - [ReactStudy / Effect Hook](./ReactStudy/Effect_Hook.md)
 - [ReactStudy / AJAX요청과 LoadingPage.md](./ReactStudy/AJAX요청과_LoadingPage.md)
