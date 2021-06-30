@@ -196,7 +196,7 @@ if(request.method === "OPTION"){
 
 ```js
 const server = http.createServer((request, response) => {
-if(request.method === "POST"){ //body값을 가져올 수 있어여
+if(request.method === "POST"){
   if(request.url === '/lower'){
     let data = "";
 
