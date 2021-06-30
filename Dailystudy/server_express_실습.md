@@ -61,17 +61,21 @@ if(request.method === "OPTIONS"){ //프리플라이트 내용들을 해더에 �
 <br />
 
 ```js
+// 외부 모듈
 const express = require('express') // 모듈을 불러온다.
-const app = express(); // 모듈을 app담아 서버를 만듭니다!
 const cors = require('cors') // cors 미들웨어를 불러온다.
+
+//전역 변수
+const app = express(); // 모듈을 app담아 서버를 만듭니다!
 const port = 5000;
 const ip = 'localhost';
  
-//우리가 구현해야될 파일을 불러 오기!!
-app.use(express.static('client'))
+//실행 로직
+app.use(express.static('client')) //사용할 파일 불러오기!
 app.use(express.json({strict: false})); // primitive data type 도 parsing 해주도록 설정
 app.use(cors()); // 모든 요청에 대해 CORS 를 허용한다.
  
+ //use는 등록해주다라는 개념으로 이해하기!!! express에 ~를 사용할것을 알려줄꺼야~
  
 //POST 
 //upper 구현하기
