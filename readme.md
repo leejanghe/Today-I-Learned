@@ -12,7 +12,7 @@
 > 2021-06-29
 - [프로그래머스 1단계 / 수박수박수박수박수박수?](./programmers/수박수박수박수박수박수.md)
 - [DailyStudy / 사용중인포트죽이기](./Dailystudy/사용중인포트죽이기.md)
-- [DailyStudy / node server basic](./Dailystudy/node_server-basic.md)
+- [DailyStudy / node server basic](./Dailystudy/node_server_basic.md)
 
 > 2021-06-29
 - [프로그래머스 1단계 / 제일 작은수 제거하기](./programmers/제일_작은수_제거하기.md)
