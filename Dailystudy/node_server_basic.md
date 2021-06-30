@@ -1,5 +1,6 @@
 # nodo server
 서버에 대한 기본적인 구조와 서버를 만들어가는 과정에 대해 학습해 보고 스프린트 과제를 통해 실습해 보겠습니다.
+<br />
 
 ## 1. 노드 서버의 기본적인 구조
 서버는 크게 `http`모듈, `createServer` `listen`으로 기본적으로 구성 할수 있습니다.
@@ -32,6 +33,7 @@ writeHead는 첫번째 인자는 상태 코드, 두번째 인자는 {키:값}형
 두번째 인자를 기준으로 화면이 출력 됩니다
 
 3. listen 메서드 활용해서 서버가 잘 실행이 되었는지 확인 할수 있습니다. 이를 잘 확인하고 싶으면 콘솔창을 사용해서 터미널창에 콘솔창이 잘찍혔는지 확인하면 됩니다.
+<br />
 
 ## 2. 기본 템플릿
 프리플라잇트 헤더가 작성된 기본 템플릿 입니다. 이걸 바탕으로 서버를 구축 해보시길!
@@ -53,6 +55,7 @@ server.listen(PORT, ip, () => {
   console.log(`http server listen on ${ip}:${PORT}`);
 });
 
+//cors 설정
 const defaultCorsHeader = {
   'Access-Control-Allow-Origin': '*',
   'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
