@@ -68,6 +68,26 @@ app.get('/joycoding',fuction(req, res){
 //express 알아서 매칭을 해서 joycoding 등록을 해줍니다.
 
 ```
+<br />
+
+## cors 요청이 너무 편리하다!
+
+---
+
+cors를 사용하려면 `npm i cors` 를 통해 설치해주고 모듈을 받아와서 씁니다. cors를 사용하면 CorsHeader를 따로 작성할 필요가 없습니다! 너무 편리합니다!!!
+
+```js 
+// 외부 모듈
+const express = require('express')
+const cors = require('cors') // cors를 쓸때 설치 꼭 해주십다!
+
+//...
+ 
+//실행 로직
+app.use(express.json());
+app.use(cors()); //달랑 이 한줄로 인해서 cors요청을 다해결해줍니다.
+
+```
 
 <br />
 
@@ -166,10 +186,11 @@ app.listen(port, ()=>{
 
 ### 정리
 
-여기서 꼭 알아야할 내용들을 다시 정리하자면!!!<br />
+여기서 유용한 내용들을 다시 정리하자면!!!<br />
 1. express의 기본적인 구조를 분류하고 작성하기<br />
 2. 우리가 무엇인가를 설정하거나 사용하고 싶을때는 `use`메서드를 쓰기!<br />
 3. POST요청에서 req.body를 활용해서 응답할 로직 작성하기!<br />
-4. 구조 분해 할당을 통해 가독성 높히기!!!<br />
+4. cors를 사용해서 불필요한 CorsHeader작성을 피할수 있다!<br />
+5. 구조분해 할당을 통해 간략하게 로직을 작성할수 있다!<br />
 
 이정도만 알고 넘어가도 충분히 express를 사용할수 있습니다!!!
