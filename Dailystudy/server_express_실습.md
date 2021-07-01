@@ -80,7 +80,11 @@ app.use(cors()); // 모든 요청에 대해 CORS 를 허용한다.
 //POST 
 //upper 구현하기
 app.post('/upper', function(req,res){
-    res.json(req.body.toUpperCase())
+    console.log(req.body) // 터미널 콘솔 확인해보기 
+    let buffer = req.body 
+    buffer = buffer.toUpperCase()
+    console.log(buffer) // 대문자로 변환되었는지 확인
+    res.json(buffer) // 바디데이터 Json parsing해서 내보내기
 })
 
 //loewr 구현하기
