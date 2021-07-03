@@ -10,6 +10,9 @@
 # 스터디 기록
 
 > 2021-07-02
+- [프로그래머스 1단계 / 자연수 뒤집어 배열로 만들기](./programmers/자연수_뒤집어_배열로_만들기.md)
+
+> 2021-07-02
 - [프로그래머스 1단계 / 문자열 다루기 기본](./programmers/문자열_다루기_기본.md)
 - [DailyStudy / server Middleware](./Dailystudy/server_Middleware.md)
 - [DailyStudy / server sprint핵심정리](./Dailystudy/server_sprint핵심정리.md)
