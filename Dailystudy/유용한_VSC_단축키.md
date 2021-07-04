@@ -9,14 +9,14 @@
 <br />
 
 ```js
-Cmd + D     // 블럭다중편집 (같은글씨 편집 가능)
-Opt + Click //칸다중편집  (클릭해서 다중편집 가능)
-Opt + ↑,↓   // 블럭상하이동
-Opt + Shift + ↑↓ // 블럭상하복사
-Cmd + /          // 블럭코멘트 (주석)
+Cmd + D                 // 블럭다중편집 (같은글씨 편집 가능)
+Opt + Click             //칸다중편집  (클릭해서 다중편집 가능)
+Opt + ↑,↓               // 블럭상하이동
+Opt + Shift + ↑↓        // 블럭상하복사
+Cmd + /                 // 블럭코멘트 (주석)
 Drag + Opt + Shift + i  // 블럭뒤 커서 생성
-Opt + Shift + Drag  // 블럭다중선택
-Cmd + Q  // 종료
+Opt + Shift + Drag      // 블럭다중선택
+Cmd + Q                 // 종료
 ```
 <br />
 
