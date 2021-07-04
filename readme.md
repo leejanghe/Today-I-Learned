@@ -14,6 +14,7 @@
 - [프로그래머스 1단계 / 나누어 떨어지는 숫자 배열](./programmers/숫자_떨어지는_숫자_배열.md)
 - [DailyStudy / npm err_누락된 스크립트 해결](./Dailystudy/npm_err_누락된_스크립트_해결하기.md)
 - [DailyStudy / Error: ENOENT: no such file or directory](./Dailystudy/npm_err_no_such_file_or_directory.md)
+- [DailyStudy / 유용한 VSC 단축키 정리](./Dailystudy/유용한_VSC_단축키_정리.md)
 
 > 2021-07-03
 - [프로그래머스 1단계 / 자연수 뒤집어 배열로 만들기](./programmers/자연수_뒤집어_배열로_만들기.md)
