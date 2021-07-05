@@ -9,6 +9,9 @@
 ---
 # 스터디 기록
 
+> 2021-07-05
+- [프로그래머스 1단계 / 문자열 내림차순으로 배치하기](./programmers/문자열_내림차순으로_배치하기.md)
+- [ReactStudy / React_Styled Components](./ReactStudy/React_Styled_Components.md)
 
 > 2021-07-04
 - [프로그래머스 1단계 / 나누어 떨어지는 숫자 배열](./programmers/나누어_떨어지는_숫자_배열.md)
@@ -40,7 +43,7 @@
 > 2021-06-29
 - [프로그래머스 1단계 / 제일 작은수 제거하기](./programmers/제일_작은수_제거하기.md)
 - [ReactStudy / Effect Hook](./ReactStudy/Effect_Hook.md)
-- [ReactStudy / AJAX요청과 LoadingPage.md](./ReactStudy/AJAX요청과_LoadingPage.md)
+- [ReactStudy / AJAX요청과 LoadingPage](./ReactStudy/AJAX요청과_LoadingPage.md)
 
 > 2021-06-28
 - [프로그래머스 1단계 / 문자열을 정수로 바꾸기](./programmers/문자열을_정수로_바꾸기.md)
