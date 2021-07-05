@@ -169,13 +169,13 @@ const borderBtn = styled(Button)`
    border: 2px solid green;
    border-radius: 3px;
 `
-
+//borterBtn 컴포넌트를 추가합니다.
 export default function App() {
   return (
     <div>
       <Button>hello<Button> 
       <Button point>joycoding<Button>
-      <borderBtn>coco!!</borderBtn>  //추가
+      <borderBtn>coco!!</borderBtn>
     </div>
   );
 }
