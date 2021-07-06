@@ -59,9 +59,20 @@ fetch(`https://youtube.googleapis.com/...생략=${this.key}`,
 
 <br />
 
-## 인덱스js파일에서 변수 지정 및 전달하기
+## gitignore파일 활용하기 핵심!!!
 
 ---
 
-API키를 관리하는 파일을 불러오고 .env에서 지정 한 API KEY를 아래와 같이 변수에 담아주고 App컴포넌트에 전달합니다.
+마지막으로 gitignore파일에 들어가서 아래와 같이 작성해줍니다! gitignore은 Project에 원하지 않는 Backup File이나 Log File , 혹은 컴파일 된 파일들을 Git에서 제외시킬수 있는 설정 File파일입니다!
 <br />
+
+```js
+// gitigonre파일
+// ...생략
+
+# API KEYs
+.env
+
+//...생략
+```
+
