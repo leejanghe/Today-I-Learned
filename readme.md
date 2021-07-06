@@ -9,6 +9,11 @@
 ---
 # 스터디 기록
 
+> 2021-07-06
+- [프로그래머스 1단계 / 정수 제곱근 판별](./programmers/정수_제곱근_판별.md)
+- [ReactStudy / api키 숨기기](./ReactStudy/api_키_숨기기.md)
+- [ReactStudy / React고차함수 인자활용법](./ReactStudy/React고차함수_인자활용법.md)
+
 > 2021-07-05
 - [프로그래머스 1단계 / 문자열 내림차순으로 배치하기](./programmers/문자열_내림차순으로_배치하기.md)
 - [ReactStudy / React_Styled Components](./ReactStudy/React_Styled_Components.md)
