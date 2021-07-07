@@ -9,6 +9,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-08
+- [프로그래머스 1단계 / 이상한 문자 만들기](./programmers/이상한_문자_만들기.md)
+<!-- - [DailyStudy / Routing](./Dailystudy/Routing.md) -->
+
 > 2021-07-07
 - [프로그래머스 1단계 / 문자열 p와 y의 개수](./programmers/문자열_p와_y의_개수.md)
 - [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
