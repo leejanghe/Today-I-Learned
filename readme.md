@@ -11,6 +11,7 @@
 
 > 2021-07-07
 - [프로그래머스 1단계 / 문자열 p와 y의 개수](./programmers/문자열_p와_y의_개수.md)
+- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
 
 > 2021-07-06
 - [프로그래머스 1단계 / 정수 제곱근 판별](./programmers/정수_제곱근_판별.md)
