@@ -9,6 +9,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-09
+- [프로그래머스 1단계 / 가운데 글자 가져오기](./programmers/가운데_글자_가져오기.md)
+- [ReactStudy / Redux실습(정리중)](./ReactStudy/Routing.md)
+
 > 2021-07-08
 - [프로그래머스 1단계 / 이상한 문자 만들기](./programmers/이상한_문자_만들기.md)
 - [ReactStudy / Routing](./ReactStudy/Routing.md)
