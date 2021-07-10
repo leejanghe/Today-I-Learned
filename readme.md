@@ -9,6 +9,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-10
+- [프로그래머스 1단계 / 가운데 글자 가져오기](./programmers/가운데_글자_가져오기.md)
+- [ReactStudy / Redux_연습](./ReactStudy/Redux_연습.md)
+
 > 2021-07-09
 - [프로그래머스 1단계 / 가운데 글자 가져오기](./programmers/가운데_글자_가져오기.md)
 - [ReactStudy / Redux실습](./ReactStudy/Redux실습.md)

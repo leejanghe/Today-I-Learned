@@ -15,6 +15,7 @@ $npm instail redux react-redux
 react-redux 라이브러리에서는 useSelector와 useDispatch Hooks와 Provider 컴포넌트를 사용할수 있습니다.
 <br />
 
+<br />
 
 ## 리덕스 코드 작성하기(액션, 액션 생성 함수, 리듀스)
 
@@ -101,7 +102,7 @@ export default Counter;
 ```
 <br />
 
-# App.js
+## App.js
 
 ```js
 import "./App.css";
