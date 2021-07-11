@@ -9,7 +9,7 @@
 
 대충 common이라는 폴더를 만들어서 css를 관리할 파일을 만들어 줍니다. 예를들어 색상과 사이즈를 관리 하고 싶으면 아래와 같이 만들어 줍니다.
 
-![](./img/settins.png){: width="310" height="436"){: .center}
+![](./img/settins.png)
 
 <br >
 
