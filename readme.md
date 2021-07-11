@@ -10,7 +10,7 @@
 # 스터디 기록
 
 > 2021-07-11
-- [프로그래머스 1단계 / 시저암호](./programmers/시저암호.md)
+- [프로그래머스 1단계 / 완주하지 못하 선수](./programmers/완주하지_못한_선수.md)
 - [ReactStudy / 템플릿복사](./ReactStudy/리엑트_템플릿복사.md)
 - [ReactStudy / 공통css_분류하기](./ReactStudy/리엑트_공통css_셋팅.md)
 - [ReactStudy / VSCode settings.json](./ReactStudy/VSCode_settings.json.md)
