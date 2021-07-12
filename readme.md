@@ -18,7 +18,7 @@
 - [프로그래머스 1단계 / 완주하지 못한 선수](./programmers/완주하지_못한_선수.md)
 - [ReactStudy / 템플릿복사](./ReactStudy/리엑트_템플릿복사.md)
 - [ReactStudy / 공통css_분류하기](./ReactStudy/리엑트_공통css_셋팅.md)
-- [ReactStudy / VSCode settings.json](./ReactStudy/VSCode_settings.json.md)
+- [VSCode_tip / VSCode settings.json](./VSCode_tip/VSCode_settings.json.md)
 
 > 2021-07-10
 - [프로그래머스 1단계 / 시저암호](./programmers/시저암호.md)
@@ -50,7 +50,7 @@
 - [프로그래머스 1단계 / 나누어 떨어지는 숫자 배열](./programmers/나누어_떨어지는_숫자_배열.md)
 - [Err / npm err_누락된 스크립트 해결](./Err/npm_err_누락된_스크립트_해결하기.md)
 - [Err/ Error: ENOENT: no such file or directory](./Err/npm_err_no_such_file_or_directory.md)
-- [Useful_Tips / 유용한 VSC 단축키 정리](./Useful.Tips/유용한_VSC_단축키.md)
+- [VSCode_tip/ 유용한 VSC 단축키 정리](./VSCode_tip/유용한_VSC_단축키.md)
 
 > 2021-07-03
 - [프로그래머스 1단계 / 자연수 뒤집어 배열로 만들기](./programmers/자연수_뒤집어_배열로_만들기.md)
