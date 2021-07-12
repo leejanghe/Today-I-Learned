@@ -7,8 +7,8 @@
 # 스터디 기록
 
 > 2021-07-13
-- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
-- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
+- [Err / 배포에러](./Err/배포에러.md)
+- [ReactStudy / 유튜브 클론 코딩 완료](./ReactStudy/youtube_clone.md)
 
 
 > 2021-07-12
