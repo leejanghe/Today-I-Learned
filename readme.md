@@ -1,6 +1,3 @@
-#  나와의 약속!!!
-
-## - 프로그래머스 하루에 한문제 풀기!!!
 
 ## - 오늘 배운 내용 정리하고 기록하는 습관 기르기!!!
 
@@ -9,8 +6,13 @@
 ---
 # 스터디 기록
 
+
+> 2021-07-12
+<!-- - [프로그래머스 1단계 / 완주하지 못하 선수](./programmers/완주하지_못한_선수.md) -->
+- [ReactStudy / firebse설정](./ReactStudy/react_firebase.md)
+
 > 2021-07-11
-- [프로그래머스 1단계 / 완주하지 못하 선수](./programmers/완주하지_못한_선수.md)
+- [프로그래머스 1단계 / 완주하지 못한 선수](./programmers/완주하지_못한_선수.md)
 - [ReactStudy / 템플릿복사](./ReactStudy/리엑트_템플릿복사.md)
 - [ReactStudy / 공통css_분류하기](./ReactStudy/리엑트_공통css_셋팅.md)
 - [ReactStudy / VSCode settings.json](./ReactStudy/VSCode_settings.json.md)
