@@ -6,9 +6,12 @@
 ---
 # 스터디 기록
 
+> 2021-07-13
+- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
+- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
+
 
 > 2021-07-12
-<!-- - [프로그래머스 1단계 / 완주하지 못하 선수](./programmers/완주하지_못한_선수.md) -->
 - [ReactStudy / firebse설정](./ReactStudy/react_firebase.md)
 
 > 2021-07-11
@@ -45,9 +48,9 @@
 
 > 2021-07-04
 - [프로그래머스 1단계 / 나누어 떨어지는 숫자 배열](./programmers/나누어_떨어지는_숫자_배열.md)
-- [DailyStudy / npm err_누락된 스크립트 해결](./Dailystudy/npm_err_누락된_스크립트_해결하기.md)
-- [DailyStudy / Error: ENOENT: no such file or directory](./Dailystudy/npm_err_no_such_file_or_directory.md)
-- [DailyStudy / 유용한 VSC 단축키 정리](./Dailystudy/유용한_VSC_단축키.md)
+- [Err / npm err_누락된 스크립트 해결](./Err/npm_err_누락된_스크립트_해결하기.md)
+- [Err/ Error: ENOENT: no such file or directory](./Err/npm_err_no_such_file_or_directory.md)
+- [Useful_Tips / 유용한 VSC 단축키 정리](./Useful.Tips/유용한_VSC_단축키.md)
 
 > 2021-07-03
 - [프로그래머스 1단계 / 자연수 뒤집어 배열로 만들기](./programmers/자연수_뒤집어_배열로_만들기.md)
@@ -66,7 +69,7 @@
 
 > 2021-06-30
 - [프로그래머스 1단계 / 수박수박수박수박수박수?](./programmers/수박수박수박수박수박수.md)
-- [DailyStudy / 사용중인포트죽이기](./Dailystudy/사용중인포트죽이기.md)
+- [Err / 사용중인포트죽이기](./Err/사용중인포트죽이기.md)
 - [DailyStudy / node server basic](./Dailystudy/node_server_basic.md)
 - [DailyStudy / node server 실습](./Dailystudy/node_server_실습.md)
 
