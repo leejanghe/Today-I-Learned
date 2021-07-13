@@ -4,7 +4,7 @@
 
 미들웨어 thunk함수 구조 알아보기
 
-```jsx
+```js
 function createThunkMiddleware(extraArgument){
     return({dispatch, getState}) => (next) => (action) => {
         // 구조분해 할당을 통해 스토어에서 dispatch와 getState 함수를 받아옵니다.
@@ -26,5 +26,4 @@ export const notify = (message, dismissTime = 5000) => dispatch => {
     }, dismissTime)
     // 인자로 받아온 store.dispatch를 이곳에서 실행합니다. (액션객체 -> 리듀서)
 }
-
 ```
