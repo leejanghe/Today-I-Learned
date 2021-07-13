@@ -6,6 +6,9 @@
 ---
 # 스터디 기록
 
+> 2021-07-14
+- [JavaScript / Closure](./JavaScript/Closure.md)
+
 > 2021-07-13
 - [Err / 배포에러](./Err/배포에러.md)
 - [ReactStudy / 유튜브 클론 코딩 완료](./ReactStudy/youtube_clone.md)
