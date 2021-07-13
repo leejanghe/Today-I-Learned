@@ -9,7 +9,7 @@
 > 2021-07-13
 - [Err / 배포에러](./Err/배포에러.md)
 - [ReactStudy / 유튜브 클론 코딩 완료](./ReactStudy/youtube_clone.md)
-
+- [DailyStudy / 빌드와_배포](./Dailystudy/빌드와_배포.md)
 
 > 2021-07-12
 - [ReactStudy / firebse설정](./ReactStudy/react_firebase.md)
