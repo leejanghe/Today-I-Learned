@@ -8,6 +8,7 @@
 
 > 2021-07-14
 - [JavaScript / Closure](./JavaScript/Closure.md)
+- [ReactStudy / Middleware thunk 구조](./ReactStudy/Middleware_thunk.md)
 
 > 2021-07-13
 - [Err / 배포에러](./Err/배포에러.md)
