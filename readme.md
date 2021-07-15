@@ -11,6 +11,7 @@
 - [Err / ha2 warning해결](./Err/ha2_err해결.md)
 - [JavaScript / Spread Operator](./JavaScript/Spread_Operator.md)
 - [JavaScript / default parameter](./JavaScript/default_parameter.md)
+- [JavaScript / rest parameter](./JavaScript/rest_parameter.md)
 
 > 2021-07-14
 - [JavaScript / Closure](./JavaScript/Closure.md)
