@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-15
+- [JavaScript / 반복문정리](./JavaScript/반복문정리.md)
+
+
 > 2021-07-14
 - [JavaScript / Closure](./JavaScript/Closure.md)
 - [ReactStudy / Middleware thunk 구조](./ReactStudy/Middleware_thunk.md)
