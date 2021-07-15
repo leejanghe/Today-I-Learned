@@ -19,6 +19,8 @@ function add(a, b=5){
 add(1,7)  //8
 ```
 
+<br />
+
 ## 함수도 default값으로 넣을수 있습니당
 
 default parameter에 함수 입력도 가능합니다.
