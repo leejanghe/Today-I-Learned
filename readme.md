@@ -8,6 +8,7 @@
 
 > 2021-07-16
 - [JavaScript / Class](./JavaScript/Class.md)
+- [프로그래머스 1단계 / 모의고사](./programmers/모의고사.md)
 
 > 2021-07-15
 - [JavaScript / 반복문정리](./JavaScript/반복문정리.md)
