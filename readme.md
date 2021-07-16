@@ -8,6 +8,7 @@
 
 > 2021-07-16
 - [JavaScript / Class](./JavaScript/Class.md)
+- [JavaScript / 고차함수 map,filter,reduce](./JavaScript/고차함수.md)
 - [프로그래머스 1단계 / 모의고사](./programmers/모의고사.md)
 
 > 2021-07-15
