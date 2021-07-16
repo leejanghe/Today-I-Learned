@@ -20,8 +20,8 @@
 > 2021-07-13
 - [Err / 배포에러](./Err/배포에러.md)
 - [ReactStudy / 유튜브 클론 코딩 완료](./ReactStudy/youtube_clone.md)
-- [DailyStudy / 빌드와 배포 용어정리](./Dailystudy/빌드와_배포.md)
-- [DailyStudy / WebPack 용어정리](./Dailystudy/WebPack.md)
+- [SprintStudy / 빌드와 배포 용어정리](./SprintStudy/빌드와_배포.md)
+- [SprintStudy / WebPack 용어정리](./SprintStudy/WebPack.md)
 
 > 2021-07-12
 - [ReactStudy / firebse설정](./ReactStudy/react_firebase.md)
@@ -47,7 +47,7 @@
 
 > 2021-07-07
 - [프로그래머스 1단계 / 문자열 p와 y의 개수](./programmers/문자열_p와_y의_개수.md)
-- [DailyStudy / npm과 yarn의 차이](./Dailystudy/npm과_yarn의_차이.md)
+- [SprintStudy / npm과 yarn의 차이](./SprintStudy/npm과_yarn의_차이.md)
 
 > 2021-07-06
 - [프로그래머스 1단계 / 정수 제곱근 판별](./programmers/정수_제곱근_판별.md)
@@ -66,24 +66,24 @@
 
 > 2021-07-03
 - [프로그래머스 1단계 / 자연수 뒤집어 배열로 만들기](./programmers/자연수_뒤집어_배열로_만들기.md)
-- [DailyStudy / server 잡지식정리](./Dailystudy/server_잡지식정리.md)
+- [SprintStudy / server 잡지식정리](./SprintStudy/server_잡지식정리.md)
 
 > 2021-07-02
 - [프로그래머스 1단계 / 문자열 다루기 기본](./programmers/문자열_다루기_기본.md)
-- [DailyStudy / server Middleware](./Dailystudy/server_Middleware.md)
-- [DailyStudy / server sprint핵심정리](./Dailystudy/server_sprint핵심정리.md)
+- [SprintStudy / server Middleware](./SprintStudy/server_Middleware.md)
+- [SprintStudy / server sprint핵심정리](./SprintStudy/server_sprint핵심정리.md)
 
 > 2021-07-01
 - [프로그래머스 1단계 / 정수 내림차순으로 배치하기](./programmers/정수_내림차순으로_배치하기.md)
-- [DailyStudy / server express basic](./Dailystudy/server_express_basic.md)
-- [DailyStudy / server express 실습](./Dailystudy/server_express_실습.md)
-- [DailyStudy / server express framework](./Dailystudy/server_express_framework.md)
+- [SprintStudy / server express basic](./SprintStudy/server_express_basic.md)
+- [SprintStudy / server express 실습](./SprintStudy/server_express_실습.md)
+- [SprintStudy / server express framework](./SprintStudy/server_express_framework.md)
 
 > 2021-06-30
 - [프로그래머스 1단계 / 수박수박수박수박수박수?](./programmers/수박수박수박수박수박수.md)
 - [Err / 사용중인포트죽이기](./Err/사용중인포트죽이기.md)
-- [DailyStudy / node server basic](./Dailystudy/node_server_basic.md)
-- [DailyStudy / node server 실습](./Dailystudy/node_server_실습.md)
+- [SprintStudy / node server basic](./SprintStudy/node_server_basic.md)
+- [SprintStudy / node server 실습](./SprintStudy/node_server_실습.md)
 
 > 2021-06-29
 - [프로그래머스 1단계 / 제일 작은수 제거하기](./programmers/제일_작은수_제거하기.md)
@@ -111,16 +111,16 @@
 
 > 2021-06-24
 - [프로그래머스 1단계 / 약수의 합](./programmers/약수의_합.md)
-- [DailyStudy / 네트워크 기초](./Dailystudy/네트워크_기초.md)
+- [SprintStudy / 네트워크 기초](./SprintStudy/네트워크_기초.md)
 
 > 2021-06-23
 - [프로그래머스 1단계 / 행렬의 덧셈](./programmers/행렬의_덧셈.md)
-- [DailyStudy / 프로미스 정리1](./Dailystudy/프로미스_정리1.md)
-- [DailyStudy / 프로미스 정리2](./Dailystudy/프로미스_정리2.md)
+- [SprintStudy / 프로미스 정리1](./SprintStudy/프로미스_정리1.md)
+- [SprintStudy / 프로미스 정리2](./SprintStudy/프로미스_정리2.md)
 
 > 2021-06-22
 - [프로그래머스 1단계 / 직사각형 별찍기](./programmers/직사각형_별찍기.md)
-- [DailyStudy / 동기적 처리와 비동기적 처리](./Dailystudy/동기적_처리와_비동기적_처리.md)
+- [SprintStudy / 동기적 처리와 비동기적 처리](./SprintStudy/동기적_처리와_비동기적_처리.md)
 
 > 2021-06-21
 - [프로그래머스 1단계 / 콜라츠 추측](./programmers/콜라츠_추측.md)
