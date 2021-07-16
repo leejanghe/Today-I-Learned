@@ -7,7 +7,7 @@
 # 스터디 기록
 
 > 2021-07-16
-- [JavaScript / class](./JavaScript/class.md)
+- [JavaScript / Class](./JavaScript/Class.md)
 
 > 2021-07-15
 - [JavaScript / 반복문정리](./JavaScript/반복문정리.md)
