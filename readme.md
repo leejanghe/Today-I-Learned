@@ -6,6 +6,9 @@
 ---
 # 스터디 기록
 
+> 2021-07-16
+- [JavaScript / class](./JavaScript/class.md)
+
 > 2021-07-15
 - [JavaScript / 반복문정리](./JavaScript/반복문정리.md)
 - [Err / ha2 warning해결](./Err/ha2_err해결.md)
