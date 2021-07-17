@@ -9,7 +9,7 @@
 > 2021-07-17
 - [Tech Interview / 프레임워크와 라이브러리 차이](./Tech_Interview/프레임워크_라이브러리_차이.md)
 - [Tech Interview / 함수형 프로그래밍](./Tech_Interview/함수형프로그래밍이란.md)
-- [Dev.log / Dev.log계획](./Dev_log/Dev_log1_무엇을쓸까?.md)
+- [Dev_log / Dev_log계획](./Dev_log/Dev_log계획.md)
 
 > 2021-07-16
 - [JavaScript / Class](./JavaScript/Class.md)
