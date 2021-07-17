@@ -6,6 +6,9 @@
 ---
 # 스터디 기록
 
+> 2021-07-17
+- [Tech Interview / 프레임워크와 라이브러리 차이](./Tech_Interview/프레임워크_라이브러리_차이.md)
+
 > 2021-07-16
 - [JavaScript / Class](./JavaScript/Class.md)
 - [JavaScript / 고차함수 map,filter,reduce](./JavaScript/고차함수.md)
