@@ -9,6 +9,8 @@
 > 2021-07-18
 - [Dev_log / Dev_log 7.18](./Dev_log/Dev_log_0718.md)
 - [ReactStudy / redux_todolist 배포](./ReactStudy/Redux_todolist.md)
+- [ReactStudy / cloudinary](./ReactStudy/cloudinary_이미지업로드.md)
+- [ReactStudy / Dependency_injection](./ReactStudy/Dependency_Injection.md)
 
 > 2021-07-17
 - [Tech Interview / 프레임워크와 라이브러리 차이](./Tech_Interview/프레임워크_라이브러리_차이.md)
