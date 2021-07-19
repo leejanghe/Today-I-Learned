@@ -5,6 +5,10 @@
 
 ---
 # 스터디 기록
+Linux_사용권한과_환경변수.md
+> 2021-07-19
+- [Dev_log / Dev_log 7.19](./Dev_log/Dev_log_0719.md)
+- [SprintStudy / Linux_사용권한과 환경변수 #1](./SprintStudy/Linux_사용권한과_환경변수1.md)
 
 > 2021-07-18
 - [Dev_log / Dev_log 7.18](./Dev_log/Dev_log_0718.md)
