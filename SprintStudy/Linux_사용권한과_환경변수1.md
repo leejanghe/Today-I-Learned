@@ -23,14 +23,14 @@ nano test.js
 
 <br />
 
-![](./image/rew.png)
+![](./image/rwe.png)
 
 <br />
 
 `-rw-r--r--` 출력에서 `-`로 시작 되었기 때문에 test.js는 파일임을 확인 할 수 있습니다. 그렇다면 rwe 이런 기호는 무엇을 의미할까요 ?
 <br />
 
-![](./image/rew1.png)
+![](./image/rwe1.png)
 
 <br />
 
@@ -40,7 +40,7 @@ nano test.js
 2. w는 write permission 쓰기 권한을 뜻합니다.
 3. x는 execute permission 실행 권한을 뜻합니다.
 
-그렇다면 아까 출력한 `-rw-r--r--`를 해석하면 **소유자는 일기 쓰기가 가능하고 나머지 그룹은 읽기만 가능하다**라는 뜻입니다.
+그렇다면 아까 출력한 `-rw-r--r--`를 해석하면 **소유자는 읽기 쓰기가 가능하고 나머지 그룹은 읽기만 가능하다**라는 뜻입니다.
 
 ### 용어정리 User, Group, Other
 
@@ -94,8 +94,8 @@ Execute(x) | 1
 Absolute form에서 사용하는 숫자 표입니다. 외우는것보단 참고용으로 쓰는게 좋습니다.
 <br />
 
-    | Sum | rws | Permission
-:--:|:---:|:---:|:----:
+Num| Sum | rws | Permission
+:----:|:----:|:----:|:----:
 7	| 4(r) + 2(w) + 1(x) |	rwx	| read, write and execute
 6	| 4(r) + 2(w) + 0(-) |	rw-	| read and write
 5	| 4(r) + 0(-) + 1(x) |	r-x	| read and execute
