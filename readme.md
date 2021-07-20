@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-21
+- [Dev_log / Dev_log 7.21](./Dev_log/Dev_log_0721.md)
+- [BookMarkSite / geeksforgeeks](./BookMarkSite/geeksforgeeks.md)
+
 > 2021-07-20
 - [Dev_log / Dev_log 7.20](./Dev_log/Dev_log_0720.md)
 - [Algorithm / 시간복잡도](./Algorithm/시간복잡도.md)
