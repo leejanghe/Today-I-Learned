@@ -8,6 +8,7 @@
 
 > 2021-07-20
 - [Dev_log / Dev_log 7.20](./Dev_log/Dev_log_0720.md)
+- [Algorithm / 시간복잡도](./Algorithm/시간복잡도.md)
 
 > 2021-07-19
 - [Dev_log / Dev_log 7.19](./Dev_log/Dev_log_0719.md)
