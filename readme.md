@@ -9,6 +9,9 @@
 > 2021-07-21
 - [Dev_log / Dev_log 7.21](./Dev_log/Dev_log_0721.md)
 - [BookMarkSite / geeksforgeeks](./BookMarkSite/geeksforgeeks.md)
+- [Algorithm / 순열과 조합](./Algorithm/순열과_조합.md)
+- [Algorithm / 최대 공약수와 최소 공배수](./Algorithm/GCD_LCM.md)
+- [Algorithm / 먹집합](./Algorithm/먹집합.md)
 
 > 2021-07-20
 - [Dev_log / Dev_log 7.20](./Dev_log/Dev_log_0720.md)
