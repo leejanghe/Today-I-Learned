@@ -12,7 +12,7 @@
 - [Algorithm / 순열과 조합](./Algorithm/순열과_조합.md)
 - [Algorithm / 최대 공약수와 최소 공배수](./Algorithm/GCD_LCM.md)
 - [Algorithm / 멱집합](./Algorithm/멱집합.md)
-- [Algorithm / 알고리즘자료](./Algorithm/알고리즘자료_순열.md)
+- [Algorithm / 알고리즘자료_순열](./Algorithm/알고리즘자료_순열.md)
 - [JavaScript / return](./JavaScript/return.md)
 
 > 2021-07-20
