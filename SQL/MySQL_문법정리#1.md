@@ -125,7 +125,7 @@ mysql> DESCRIBE user;
 INSERT INTO 테이블이름() VALUES()는 해당 테이블에 대한 정보를 입력할수 있습니다. 테이블 이름과 벨류의 문자열 순으로 정보가 나열 됩니다.
 
 ```
-insert into user(title,description,created,author,profile) 
+mysql> insert into user(title,description,created,author,profile) 
 values('joy','coding',now(),'jangh','developer');
 Query OK, 1 row affected (0.00 sec)
 ```
@@ -154,7 +154,7 @@ mysql> select * from user;
 번외 적으로 데이터를 하나 더 추가하고 싶으면 INSERT INTO를 다시 활용해서 작성하면 됩니다.
 
 ```
-insert into user (title,description,created,author,profile) 
+mysql> insert into user (title,description,created,author,profile) 
 values('happy','coco',now(),'teemo','developer');
 Query OK, 1 row affected (0.00 sec)
 ```
