@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-22
+- [Dev_log / Dev_log 7.22](./Dev_log/Dev_log_0722.md)
+- [mySQL / mySQL삭제 및 설치](./SQL/mySQL설치.md)
+
 > 2021-07-21
 - [Dev_log / Dev_log 7.21](./Dev_log/Dev_log_0721.md)
 - [BookMarkSite / geeksforgeeks](./BookMarkSite/geeksforgeeks.md)
