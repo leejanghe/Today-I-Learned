@@ -7,6 +7,10 @@
 # 스터디 기록
 
 > 2021-07-22
+- [Dev_log / Dev_log 7.23](./Dev_log/Dev_log_0723.md)
+- [BookMarkSite / MySQL cheatsheet](./BookMarkSite/MySQL_cheatsheet.md)
+
+> 2021-07-22
 - [Dev_log / Dev_log 7.22](./Dev_log/Dev_log_0722.md)
 - [mySQL / mySQL삭제 및 설치](./SQL/mySQL설치.md)
 - [mySQL / SQL개요](./SQL/SQL개요.md)

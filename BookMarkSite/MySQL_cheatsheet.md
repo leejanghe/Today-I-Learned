@@ -1,0 +1,1 @@
+가끔 기억이 안날때 참고용으로 보자 [MySQL cheatsheet](https://devhints.io/mysql)
