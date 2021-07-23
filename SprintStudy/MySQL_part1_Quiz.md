@@ -101,7 +101,7 @@ With SQL, how can you return the number of records in the "Persons" table?
 SELECT COUNT(*) FROM Persons  
 ```
 
-Persons의 전체 수를 세줍니다 COUNT 말고도 다양한 숫자 쿼리가 많습니다.
+Persons테이블의 전체(목록) 수를 세줍니다 COUNT 말고도 SUM, AVG도 확인하면 좋습니다!
 
 <br />
 
