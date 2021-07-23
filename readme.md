@@ -10,7 +10,7 @@
 - [Dev_log / Dev_log 7.24](./Dev_log/Dev_log_0724.md)
 - [Err / MySQL 비밀번호 설정](./Err/MySQL_비밀번호설정.md)
 - [SprintStudy / 데이터베이스 cheakpoint정리](./SprintStudy/데이터베이스_cheakpoint.md)
-
+- [SprintStudy / MySQL_part1_Quiz](./SprintStudy/MySQL_part1_Quiz.md)
 
 > 2021-07-23
 - [Dev_log / Dev_log 7.23](./Dev_log/Dev_log_0723.md)
