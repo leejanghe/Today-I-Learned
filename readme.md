@@ -6,6 +6,9 @@
 ---
 # 스터디 기록
 
+> 2021-07-24
+- [Dev_log / Dev_log 7.24](./Dev_log/Dev_log_0724.md)
+
 > 2021-07-23
 - [Dev_log / Dev_log 7.23](./Dev_log/Dev_log_0723.md)
 - [BookMarkSite / MySQL cheatsheet](./BookMarkSite/MySQL_cheatsheet.md)
