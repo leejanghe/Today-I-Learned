@@ -6,10 +6,11 @@
 ---
 # 스터디 기록
 
-> 2021-07-22
+> 2021-07-23
 - [Dev_log / Dev_log 7.23](./Dev_log/Dev_log_0723.md)
 - [BookMarkSite / MySQL cheatsheet](./BookMarkSite/MySQL_cheatsheet.md)
-- [MySQL / MySQL 문법정리 #1](./SQL/MySQL_문법정리_1.md)
+- [MySQL / MySQL 문법정리 #1 CREATE](./SQL/MySQL_문법정리_CREATE.md)
+- [MySQL / MySQL 문법정리 #2 READ UPDATE DELETE](./SQL/MySQL_문법정리_READ_UPDATE_DELETE.md)
 
 > 2021-07-22
 - [Dev_log / Dev_log 7.22](./Dev_log/Dev_log_0722.md)
