@@ -55,7 +55,7 @@
 
 김코딩의 아이디와 주문액의 합계를 가져오기 
 
-```js
+```
 select orders.id, orders.total_price from orders
 inner join users on users.id = orders.user_id 
 where users.username = "김코딩";
