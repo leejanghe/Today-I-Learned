@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-25
+- [Dev_log / Dev_log 7.25](./Dev_log/Dev_log_0725.md)
+
+
 > 2021-07-24
 - [Dev_log / Dev_log 7.24](./Dev_log/Dev_log_0724.md)
 - [Err / MySQL 비밀번호 설정](./Err/MySQL_비밀번호설정.md)
