@@ -6,9 +6,11 @@
 ---
 # 스터디 기록
 
+> 2021-07-26
+- [Dev_log / Dev_log 7.26](./Dev_log/Dev_log_0726.md)
+
 > 2021-07-25
 - [Dev_log / Dev_log 7.25](./Dev_log/Dev_log_0725.md)
-
 
 > 2021-07-24
 - [Dev_log / Dev_log 7.24](./Dev_log/Dev_log_0724.md)
