@@ -9,6 +9,8 @@
 > 2021-07-26
 - [Dev_log / Dev_log 7.26](./Dev_log/Dev_log_0726.md)
 - [MySQL / MySQL JOIN](./MySQL/MySQL_문법정리_JOIN.md)
+- [MySQL / MySQL 추가 쿼리문](./MySQL/MySQL_추가쿼리문.md)
+
 
 > 2021-07-25
 - [Dev_log / Dev_log 7.25](./Dev_log/Dev_log_0725.md)
