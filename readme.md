@@ -8,6 +8,7 @@
 
 > 2021-07-26
 - [Dev_log / Dev_log 7.26](./Dev_log/Dev_log_0726.md)
+- [MySQL / MySQL JOIN](./MySQL/MySQL_문법정리_JOIN.md)
 
 > 2021-07-25
 - [Dev_log / Dev_log 7.25](./Dev_log/Dev_log_0725.md)
@@ -21,13 +22,13 @@
 > 2021-07-23
 - [Dev_log / Dev_log 7.23](./Dev_log/Dev_log_0723.md)
 - [BookMarkSite / MySQL cheatsheet](./BookMarkSite/MySQL_cheatsheet.md)
-- [MySQL / MySQL 문법정리 #1 CREATE](./SQL/MySQL_문법정리_CREATE.md)
-- [MySQL / MySQL 문법정리 #2 READ UPDATE DELETE](./SQL/MySQL_문법정리_READ_UPDATE_DELETE.md)
+- [MySQL / MySQL 문법정리 #1 CREATE](./MySQL/MySQL_문법정리_CREATE.md)
+- [MySQL / MySQL 문법정리 #2 READ UPDATE DELETE](./MySQL/MySQL_문법정리_READ_UPDATE_DELETE.md)
 
 > 2021-07-22
 - [Dev_log / Dev_log 7.22](./Dev_log/Dev_log_0722.md)
-- [MySQL / mySQL삭제 및 설치](./SQL/mySQL설치.md)
-- [MySQL / SQL개요](./SQL/SQL개요.md)
+- [MySQL / mySQL삭제 및 설치](./MySQL/mySQL설치.md)
+- [MySQL / SQL개요](./MySQL/SQL개요.md)
 
 > 2021-07-21
 - [Dev_log / Dev_log 7.21](./Dev_log/Dev_log_0721.md)
