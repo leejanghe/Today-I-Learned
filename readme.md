@@ -8,6 +8,7 @@
 
 > 2021-07-27
 - [Dev_log / Dev_log 7.27](./Dev_log/Dev_log_0727.md)
+- [SprintStudy / sprint_db](./SprintStudy/sprint_db.md)
 
 > 2021-07-26
 - [Dev_log / Dev_log 7.26](./Dev_log/Dev_log_0726.md)
