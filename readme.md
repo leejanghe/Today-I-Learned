@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-07-28
+- [Dev_log / Dev_log 7.28](./Dev_log/Dev_log_0728.md)
+- [SprintStudy / Short.ly MVC](./SprintStudy/Short_ly_MVC.md)
+
 > 2021-07-27
 - [Dev_log / Dev_log 7.27](./Dev_log/Dev_log_0727.md)
 - [SprintStudy / sprint_db](./SprintStudy/sprint_db.md)
