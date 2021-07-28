@@ -1,6 +1,5 @@
 ## SPRINT _DB_CMARKET
 
-
 ```js
 const db = require('../db');
 
@@ -45,3 +44,14 @@ module.exports = {
   }
 };
 ```
+
+## 알아야할 내용
+
+1. db.query(sql, params, (콜백함수))
+- db.query는 첫번째 인자에서 쿼리문을 보내주고 두번째 인자는 해당하는 params를 세번째 인자는 콜백함수를 보내줍니다. 여기서 두번째 인자는 params를 사용하지 않을경우 생략하면 됩니다.  
+
+2. ?문 (만약 ? 쓰기 싫으면 이터럴 문법으로 해결 가능)
+- ?는 쿼리문에서 params의 값을 받아올수 있습니다. 이때 params는 배열에 담을수 있고 ?의 순서에 맞게 넣어 주면 됩니다.  
+
+3. result.insertId
+- result.insertId는 insert문이 실행했을때, 삽인된 데이터의 id값을 얻는 방법입니다.
