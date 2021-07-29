@@ -8,7 +8,7 @@
 > 2021-07-29
 - [Dev_log / Dev_log 7.29](./Dev_log/Dev_log_0729.md)
 - [BookMarkSite / ORM 참고사이트](./BookMarkSite/sequelize.md)
-
+- [MySQL / ORM](./MySQL/ORM.md)
 
 > 2021-07-28
 - [Dev_log / Dev_log 7.28](./Dev_log/Dev_log_0728.md)
