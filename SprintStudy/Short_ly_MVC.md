@@ -100,7 +100,7 @@ npx sequelize-cli db:migrate
 
 ```js
 //POST links 컨트룰러
-1. URL을 포스트 요청으로 받습니다. ex. {url:naver.com}
+1. URL을 포스트 요청으로 받습니다. //ex. {url:naver.com}
 
 2. 요청에 있는 주소를 db에 레코드로 생성합니다.
 2-1. url
@@ -117,9 +117,9 @@ npx sequelize-cli db:migrate
 4. 그리고 visits 필드 값을 1추가
 ```
 
-## controllers 작성하기
+## controllers 연결
 
-테스트 케이스를 `'./controllers/links/index.js'` 보면 해당 폴더를 만들어서 
+테스트 케이스를 `'./controllers/links/index.js'` 보면 해당 폴더를 만들어서 index.js에서 로직을 작성합니다.
 
 ```js
 describe('🚀 (2-1) controller 작성', () => {
@@ -127,4 +127,11 @@ describe('🚀 (2-1) controller 작성', () => {
     let hasLinksController = fs.existsSync('./controllers/links/index.js');
     expect(hasLinksController).to.be.true;
   });
-  ```
+```
+
+<br />
+
+## router 연결
+
+나중에 정리
+
