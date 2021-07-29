@@ -1,0 +1,1 @@
+[시컬라이즈 메서드 및 사용법 확인](https://sequelize.org/master/)
