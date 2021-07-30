@@ -9,6 +9,7 @@
 
 > 2021-07-30
 - [Dev_log / Dev_log 7.30](./Dev_log/Dev_log_0730.md)
+- [NoSQL / NoSQL개요](./NoSQL/NoSQL개요.md)
 
 > 2021-07-29
 - [Dev_log / Dev_log 7.29](./Dev_log/Dev_log_0729.md)
