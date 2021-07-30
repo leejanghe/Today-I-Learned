@@ -7,6 +7,9 @@
 # 스터디 기록
 
 
+> 2021-07-30
+- [Dev_log / Dev_log 7.30](./Dev_log/Dev_log_0730.md)
+
 > 2021-07-29
 - [Dev_log / Dev_log 7.29](./Dev_log/Dev_log_0729.md)
 - [BookMarkSite / ORM 참고사이트](./BookMarkSite/sequelize.md)
