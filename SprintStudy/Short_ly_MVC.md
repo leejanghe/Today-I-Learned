@@ -133,5 +133,65 @@ describe('🚀 (2-1) controller 작성', () => {
 
 ## router 연결
 
-나중에 정리
+```js
+const express = require('express');
+const router = express.Router();
 
+//controller 가져오기
+const controller = require('../controllers/links/index')
+
+/* post link */
+router.post('/', controller.post);
+
+// get link
+router.get('/', controller.get);
+
+// get link /:id
+router.get('/:id', controller.getId);
+
+
+module.exports = router;
+```
+
+<br />
+
+## controller 로직작성하기
+
+```js
+const models = require('../../models/index');
+const {getUrlTitle} = require('../../modules/utils');
+// const {url} = require('../../modules')
+
+module.exports = {
+
+    // get /link
+    get: async (req, res)=>{
+        //console.log('--------select문 조회',models.url.findAll())
+        const urls = await models.url.findAll()
+        res.status(200).json(urls)
+    },
+
+    // get /link/:id
+    getId: async(req, res)=>{
+        //console.log('-----------------',req.params)
+        const id = req.params.id;
+        const urlPk = await models.url.findByPk(id);
+        await urlPk.increment('visits',{by:1})
+        // console.log(urlPk)
+        res.redirect(302, urlPk.url)
+    },
+
+    // post /link
+    post:(req, res)=>{
+       //console.log('----------------',req.body.url)
+        const url = req.body.url;
+        getUrlTitle(url, async(err, title)=>{
+        const findUrl = await models.url.create({
+            url,
+            title
+        });
+        res.status(201).json(findUrl)
+        })
+    }
+  }
+  ```
