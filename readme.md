@@ -6,6 +6,10 @@
 ---
 # 스터디 기록
 
+> 2021-08-01
+- [Dev_log / Dev_log 8.1](./Dev_log/Dev_log_0801.md)
+- [Err / ajax is not a function](./Err/ajax_is_not_a_function.md)
+
 > 2021-07-31
 - [Dev_log / Dev_log 7.31](./Dev_log/Dev_log_0731.md)
 
