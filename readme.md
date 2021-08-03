@@ -9,6 +9,7 @@
 > 2021-08-03
 - [Dev_log / Dev_log 8.3](./Dev_log/Dev_log_0803.md)
 - [CS / https서버 구현 및 인증서 발급](./CS/https.md)
+- [BookMarkSite / 쿠키! 해쉬!](./BookMarkSite/SameSIte_cookies_hash.md)
 
 > 2021-08-02
 - [Dev_log / Dev_log 8.2](./Dev_log/Dev_log_0802.md)
