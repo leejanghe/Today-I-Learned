@@ -6,6 +6,9 @@
 ---
 # 스터디 기록
 
+> 2021-08-03
+- [Dev_log / Dev_log 8.3](./Dev_log/Dev_log_0803.md)
+
 > 2021-08-02
 - [Dev_log / Dev_log 8.2](./Dev_log/Dev_log_0802.md)
 
