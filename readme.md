@@ -20,6 +20,7 @@
 > 2021-08-05
 - [Dev_log / Dev_log 8.5](./Dev_log/Dev_log_0805.md)
 - [CS / 컴퓨터공학 기초_문자열과 그래픽](./CS/문자열과_그래픽.md)
+- [CS / 운영체제](./CS/운영체제.md)
 
 > 2021-08-04
 - [Dev_log / Dev_log 8.4](./Dev_log/Dev_log_0804.md)
