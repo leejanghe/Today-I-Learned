@@ -17,6 +17,10 @@
 
 # 스터디 기록
 
+> 2021-08-06
+- [Dev_log / Dev_log 8.6](./Dev_log/Dev_log_0806.md)
+- [CS / CSRF](./CS/CSRF.md)
+
 > 2021-08-05
 - [Dev_log / Dev_log 8.5](./Dev_log/Dev_log_0805.md)
 - [CS / 컴퓨터공학 기초_문자열과 그래픽](./CS/문자열과_그래픽.md)
