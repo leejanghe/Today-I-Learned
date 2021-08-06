@@ -21,7 +21,7 @@
 - [Dev_log / Dev_log 8.6](./Dev_log/Dev_log_0806.md)
 - [CS / CSRF](./CS/CSRF.md)
 - [CS / 가비지 컬렉션 & 캐시](./CS/가비지컬랙션_캐시.md)
-- [SprintStudy / 컴퓨터공학_Checkpoing ](./SprintStudy/컴퓨터공학_Checkpoing.md)
+- [SprintStudy / 컴퓨터공학_Checkpoing ](./SprintStudy/컴퓨터공학_Checkpoint.md)
 - [BookMarkSite / CS참고 도서 및 영상](./BookMarkSite/CS참고도서_및영상.md)
 
 > 2021-08-05
