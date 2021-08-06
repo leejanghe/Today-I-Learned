@@ -20,6 +20,7 @@
 > 2021-08-06
 - [Dev_log / Dev_log 8.6](./Dev_log/Dev_log_0806.md)
 - [CS / CSRF](./CS/CSRF.md)
+- [CS / 가비지 컬렉션 & 캐시](./CS/가비지컬랙션_캐시.md)
 
 > 2021-08-05
 - [Dev_log / Dev_log 8.5](./Dev_log/Dev_log_0805.md)
