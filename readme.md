@@ -17,6 +17,9 @@
 
 # 스터디 기록
 
+> 2021-08-07
+- [Dev_log / Dev_log 8.7](./Dev_log/Dev_log_0807.md)
+
 > 2021-08-06
 - [Dev_log / Dev_log 8.6](./Dev_log/Dev_log_0806.md)
 - [CS / CSRF](./CS/CSRF.md)
