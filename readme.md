@@ -17,6 +17,14 @@
 
 # 스터디 기록
 
+> 2021-08-09
+- [Dev_log / Dev_log 8.9](./Dev_log/Dev_log_0809.md)
+- [CS / 프로토콜](./CS/프로토콜.md)
+- [CS / HTTP 헤더](./CS/HTTP_헤더.md)
+
+> 2021-08-08
+- [Dev_log / Dev_log 8.8](./Dev_log/Dev_log_0808.md)
+
 > 2021-08-07
 - [Dev_log / Dev_log 8.7](./Dev_log/Dev_log_0807.md)
 
