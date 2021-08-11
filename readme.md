@@ -17,6 +17,9 @@
 
 # 스터디 기록
 
+> 2021-08-11
+- [Dev_log / Dev_log 8.11](./Dev_log/Dev_log_0811.md)
+
 > 2021-08-10
 - [Dev_log / Dev_log 8.10](./Dev_log/Dev_log_0810.md)
 - [SprintStudy / git_브랜치 ](./SprintStudy/git_브랜치.md)
