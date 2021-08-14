@@ -17,6 +17,10 @@
 
 # 스터디 기록
 
+> 2021-08-13,14
+- [Dev_log / Dev_log 8.13,14](./Dev_log/Dev_log_0813,14.md)
+- [Deploy / Docker](./Deploy/Docker.md)
+
 > 2021-08-12
 - [Dev_log / Dev_log 8.12](./Dev_log/Dev_log_0812.md)
 
