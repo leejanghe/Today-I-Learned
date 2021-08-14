@@ -20,6 +20,7 @@
 > 2021-08-13,14
 - [Dev_log / Dev_log 8.13,14](./Dev_log/Dev_log_0813,14.md)
 - [Deploy / Docker](./Deploy/Docker.md)
+- [Deploy / Docker CLI ](./Deploy/Docker_CLI.md)
 
 > 2021-08-12
 - [Dev_log / Dev_log 8.12](./Dev_log/Dev_log_0812.md)
