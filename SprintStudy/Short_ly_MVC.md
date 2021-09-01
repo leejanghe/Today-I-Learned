@@ -45,7 +45,7 @@ mysql접속하기 위해 설정한 비밀번호와 config.json에서 비밀번�
 
 ## 모델 만들기
 
-모델 생성시 이름을 단수로 생성 합니다. (어차피 자동으로 복수형으로 나오게 합니다.)
+모델 생성시 이름을 단수로 생성 합니다. (어차피 자동으로 복수형으로 나옵니다.)
 
 ```
 npx sequelize-cli model:generate --name User --attributes firstName:string,lastName:string,email:string
@@ -54,7 +54,7 @@ npx sequelize-cli model:generate --name User --attributes firstName:string,lastN
 위에 있는 명령문을 스프린트에서 요구하는 내용으로 변경하면 됩니다. 
 
 ```
-npx sequelize-cli model:generate --name user --attributes url:string,title:string,visits:integer
+npx sequelize-cli model:generate --name url --attributes url:string,title:string,visits:integer
 ```
 
 <br >
@@ -195,3 +195,63 @@ module.exports = {
     }
   }
   ```
+
+  ## 최신화
+
+  ```js
+const models = require('../../models/index')
+const url = require('../../models/url')
+const {getUrlTitle,isValidUrl} = require('../../modules/utils')
+// const {url} = require('../../modules') 이렇게 하면 url만 가져오기 때문에 ㄴㄴ 그냥 변수로 담아서 다가져오기
+
+const MU = models.url //어차피 계속 쓰게될테니 전역변수로 지정
+
+module.exports={
+    get: async(req, res)=>{
+        const urls = await MU.findAll()
+        //console.log('----------------select조회',urls)
+        res.status(200).json(urls)
+    },
+
+
+    getId: async(req, res)=>{
+        const id = req.params.id;
+        //console.log('---------------id값이 추가',req.params.id)
+        const urlPk = await MU.findOne({where:{id}})
+
+        // * 위에꺼 아래꺼 둘다 가능 개인적으로 주요키를 가져올땐 아래꺼 쓰는게 좋음
+        //const urlPk = await MU.findByPk(id) 
+
+
+        await urlPk.update({visits: urlPk.visits+1,})
+        // * 인크리먼트도 가능 1씩 증가할때는 by:1 생략 가능
+        //await urlPk.increment('visits',{by:1}) 
+
+        res.redirect(302, urlPk.url)
+    },
+
+
+
+    post: async (req, res) => {
+        const url = req.body.url;
+        console.dir(url);
+    
+        // * url 유효성 검사
+        if (!isValidUrl(url)) res.status(404).json({ message: "Invalid URL!" });
+    
+        getUrlTitle(url, async (err, title) => {
+          //  * findOrCreate: 중복 검사
+          const [result, created] = await MU.findOrCreate({
+            where: { url },
+            defaults: { title },
+          });
+          //  * 새로 추가한 경우
+          if (created) res.status(201).json(result);
+          //  * 기존 값이 있는 경우
+          res.status(201).json(result);
+        });
+      }
+    }
+  ```
+
+  이번 mvc 스프린트에서 가장 중요한점은 모델 데이터베이스 모듈을 가져와 컨트룰러에 연결시키는 작업이 중요하다. 아직 많이 어색하지만 자꾸 보면서 눈에 익히는게 중요할것 같다. 또 한 공식문서를 통해 실험 적용도 해봐야 겠다. 그리고 스프린트에서 테스트 케이스는 다 통과했지만 데이터가 중복으로 출력되는 현상, 초기값 null이 수정되지 않는 현상이 나타났다... 데이터 중복 출력 문제는 findOrCreate 함수를 사용해서 해결했지만 아직도 null은 해결하지 못했다... 실제 터미널로 작성해서 고치는 방법을 보았지만 와닿지 않는다...ㅠㅠ
