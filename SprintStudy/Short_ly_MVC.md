@@ -200,11 +200,14 @@ module.exports = {
 
   ```js
 const models = require('../../models/index')
-const url = require('../../models/url')
 const {getUrlTitle,isValidUrl} = require('../../modules/utils')
-// const {url} = require('../../modules') 이렇게 하면 url만 가져오기 때문에 ㄴㄴ 그냥 변수로 담아서 다가져오기
 
 const MU = models.url //어차피 계속 쓰게될테니 전역변수로 지정
+
+
+// 모듈 구조분해 할당 팁
+const 모듈 = {a:'안녕',b:'데이터정보'};
+const {a:임의변수,b:나도변수} = 모듈
 
 module.exports={
     get: async(req, res)=>{
