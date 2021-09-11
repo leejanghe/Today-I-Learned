@@ -73,7 +73,10 @@ const options ={
 app.use(cors(options));
 ```
 
-express에서는 세션쿠키를 사용할수 있도록 라이브러리가 내장되어있습니다. 설치하면 위와 같이 세션 쿠키 객체 안에 옵션을 설정할수 있습니다. 쿠키 옵션은 주석을 참고하기 두번째 cors설정에서 credentials은 쿠키를 보낼때 꼭 써야하는 옵션입니다.
+express에서는 세션쿠키를 사용할수 있도록 라이브러리가 내장되어있습니다. 설치하면 위와 같이 세션 쿠키 객체 안에 옵션을 설정할수 있습니다. 쿠키 옵션은 주석을 참고하기 두번째 cors설정에서 credentials은 쿠키를 보낼때 꼭 써야하는 옵션입니다.  
+
+중요포인트  
+HTTP Cookie와 HTTP Authentication 정보를 인식할 수 있게 해주는 요청이다. 클라이언트는 요청 생성 시 반드시 withCredentials = true;로 지정해주어야 한다.
 
 <br />
 
@@ -114,3 +117,118 @@ module.exports = {
 
 ## 4. controller 서버 구현(logout)
 
+```js
+module.exports = {
+  post: (req, res) => {
+
+    // TODO: 세션 아이디를 통해 고유한 세션 객체에 접근할 수 있습니다.
+    // 앞서 로그인시 세션 객체에 저장했던 값이 존재할 경우, 이미 로그인한 상태로 판단할 수 있습니다.
+    // 세션 객체에 담긴 값의 존재 여부에 따라 응답을 구현하세요.
+    console.log("--------",req.session) // 세션객체와 세션아이디가 출력된다.
+    if (!req.session.sid) {
+      // your code here
+      res.status(400).send({data:null, "message":"not authorized"})
+    } else {
+      // your code here
+      // TODO: 로그아웃 요청은 세션을 삭제하는 과정을 포함해야 합니다.
+      
+      //req.session.sid = '';
+      req.session.destroy(); // 아이디 삭제하는 방법
+      res.status(200).send({data:null,"message":"ok"})
+    }
+  },
+};
+```
+
+로그아웃의 핵심은 세션객체 안에 있는 아이디를 삭제하는 것이다. 세션 아이디를 삭제하는 방법은 req.session.destroy()를 사용하면 된다. 혹은 빈문자열로 넣어도 상관 없습니다.
+
+<br />
+
+## 5. controller 서버 구현(userinfo)
+
+```js
+const { Users } = require('../../models');
+
+module.exports = {
+  get: async (req, res) => {
+
+    // TODO: 세션 객체에 담긴 값의 존재 여부에 따라 응답을 구현하세요.
+    // HINT: 세션 객체에 담긴 정보가 궁금하다면 req.session을 콘솔로 출력해보세요
+
+    console.log('@@@@@@@@@@@@@@@@@@@@@@',req.session.sid) // 세션객체 안에 kimcoding
+    if (!req.session.sid) {
+      // your code here
+      res.status(400).json({"message":"not authorized"})
+    } else {
+      // your code here
+      // TODO: 데이터베이스에서 로그인한 사용자의 정보를 조회한 후 응답합니다.
+      const userInfo = await Users.findOne({
+        where: { userId: req.session.sid},
+      });
+      console.log(userInfo) //세션객체 안에 유저 정보가 담겨 있습니다.
+        res.status(200).json({"data":userInfo,"message":"ok"})
+    }
+  },
+};
+```
+
+유저인포 부분은 세션객체에 있는 아이디를 잘 활용해서 로직을 작성하면 됩니다. 세션객체에 유저에 대한 정보가 다있기때문에 아이디만 조회해서 로직을 작성하면 됩니다.
+
+<br />
+
+# Client
+
+## 1. login page
+
+```js
+//...생략
+
+ loginRequestHandler() {
+    // TODO: 로그인 요청을 보내세요.
+    //
+    // 로그인에 성공하면
+    // - props로 전달받은 함수를 호출해, 로그인 상태를 변경하세요.
+    // - GET /users/userinfo 를 통해 사용자 정보를 요청하세요
+    //
+    // 사용자 정보를 받아온 후
+    // - props로 전달받은 함수를 호출해, 사용자 정보를 변경하세요.
+    let logInUrl = 'https://localhost:4000/users/login'
+    let userInfo = 'https://localhost:4000/users/userinfo'
+
+    console.log(this.state.username)
+    axios.post(logInUrl,{
+      userId:this.state.username,
+      password:this.state.password
+    },{'Content-Type':'application/json',withCredentials:true})
+    .then(res=>this.props.loginHandler())
+    .then(res=>axios.get(userInfo,{withCredentials:true}).then(res=> this.props.setUserInfo(
+      res.data.data
+    )))
+    .catch(err=>console.log('err'))
+  }
+
+  //...생략
+  ```
+
+로그인 페이지의 핵심은 로그인이 된 후 바로 유저 정보를 받아와서 마이페이지로 들어갈수 있도록 로직을 작성해야 합니다. 그래서 로그인을 할때 로그인서버에 요청하여 로그인상태를 변경하고 사용자의 정보를 get요청해서 setUserInfo함수를 활용해서 유저의 상태정보를 변경할수 있도록 로직을 작성하면 됩니다. 여기서 중요한 점은 `withCredentials:true` 입니다. 이설정은 서버에서 cors에서 옵션을 `credentials:true`했으면 클라에서 무조건 해야되는 설정입니다. 이설정을 해야 쿠키가 잘 전송이 됩니다.
+
+<br />
+
+## 1. Mypage
+
+```js
+//...생략
+function Mypage(props) {
+  const handleLogout = () => {
+    // TODO: 서버에 로그아웃 요청을 보낸다음 요청이 성공하면 props.logoutHandler를 호출하여 로그인 상태를 업데이트 해야 합니다.
+    let logoutUrl = 'https://localhost:4000/users/logout'
+
+    axios.post(logoutUrl,null,{'Content-Type':'application/json', withCredentials:true})
+    .then(res=>props.logoutHandler())
+    .catch(err=>console.log('err'))
+  };
+
+//...생략
+```
+
+로그아웃 페이지는 로그아웃을 구현한 서버를 불러와 요청하면 됩니다. 여기서 중요한 포인트는 axios를 사용할때 post와 get요청이 있는데 들어가는 인자가 다릅니다. post요청은(url, 정보, 옵션) 으로 3개가 들어가고 get요청은(url, 옵션)으로 2개가 들어갑니다. 이점만 유의해서 로직을 작성하면 됩니다.
