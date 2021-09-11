@@ -17,6 +17,16 @@
 
 # 스터디 기록
 
+
+> 2021-09-12
+- [SprintStudy / sprint_session풀이 ](./SprintStudy/인증보안/sprint_session.md)
+- [SprintStudy / CSRF ](./SprintStudy/인증보안/CSRF.md)
+
+> 2021-09-11
+- [SprintStudy / 인증보안 기본 내용 ](./SprintStudy/인증보안/인증보안_기본.md)
+- [SprintStudy / session 정리 ](./SprintStudy/인증보안/session.md)
+
+
 > 2021-08-13,14
 - [Dev_log / Dev_log 8.13,14](./Dev_log/Dev_log_0813,14.md)
 - [Deploy / Docker](./Deploy/Docker.md)
