@@ -17,6 +17,10 @@
 
 # 스터디 기록
 
+>2022-09-14
+- [SprintStudy / Oauth 정리 ](./SprintStudy/인증보안/Oauth.md)
+- [SprintStudy / 참고자료 ](./SprintStudy/인증보안/참고자료.md)
+
 > 2021-09-13
 - [SprintStudy / Token 정리 ](./SprintStudy/인증보안/token.md)
 - [SprintStudy / sprint_token풀이 ](./SprintStudy/인증보안/sprint_token.md)
