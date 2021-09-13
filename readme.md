@@ -19,6 +19,7 @@
 
 >2022-09-14
 - [SprintStudy / Oauth 정리 ](./SprintStudy/인증보안/Oauth.md)
+- [SprintStudy / sprint_Oauth](./SprintStudy/인증보안/sprint_oauth.md)
 - [SprintStudy / 참고자료 ](./SprintStudy/인증보안/참고자료.md)
 
 > 2021-09-13
