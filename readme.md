@@ -18,7 +18,7 @@
 # 스터디 기록
 
 > 2021-09-13
-- [SprintStudy / Token 정리 ](./SprintStudy/인증보안/Token.md)
+- [SprintStudy / Token 정리 ](./SprintStudy/인증보안/token.md)
 
 > 2021-09-12
 - [SprintStudy / sprint_session풀이 ](./SprintStudy/인증보안/sprint_session.md)
