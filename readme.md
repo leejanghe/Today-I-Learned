@@ -17,9 +17,12 @@
 
 # 스터디 기록
 
+>2022-09-16
+- [Deploy / AWS_flow_서버](./Deploy/AWS배포과정_서버.md)
+- [Deploy / AWS_flow_클라이언트](./Deploy/AWS배포과정_클라이언트.md)
+
 >2022-09-15
 - [Deploy / AWS](./Deploy/AWS.md)
-
 
 >2022-09-14
 - [SprintStudy / Oauth 정리 ](./SprintStudy/인증보안/Oauth.md)
