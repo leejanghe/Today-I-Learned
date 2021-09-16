@@ -17,6 +17,10 @@
 
 # 스터디 기록
 
+>2022-09-15
+- [Deploy / AWS](./Deploy/AWS.md)
+
+
 >2022-09-14
 - [SprintStudy / Oauth 정리 ](./SprintStudy/인증보안/Oauth.md)
 - [SprintStudy / sprint_Oauth](./SprintStudy/인증보안/sprint_oauth.md)
