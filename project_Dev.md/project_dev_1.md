@@ -50,7 +50,7 @@ git push -u origin master
 ### 3. 레포가 잘만들어 졌는지 확인 후 dev 브런치 만들기
 
 ```
-git branch switch -c dev
+git switch -c dev
 ```
 
 <br />
@@ -66,7 +66,7 @@ cd client 하고 설치하기
 
 ```
 cd server
-git init
+npm init
 ```
 
 세팅 다하고 깃이그노어 설정 및 env파일 미리 만들기
