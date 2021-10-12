@@ -44,7 +44,9 @@ isAuthorized: (req) => {
 
 ### 오늘 한거 ㅋㅋ
 
-<img width="80%" src="file:///Users/janghee/Desktop/login.gif.crdownload"/>
+
+[로그인](file:///Users/janghee/Desktop/login.gif.crdownload)
+
 
 
 
