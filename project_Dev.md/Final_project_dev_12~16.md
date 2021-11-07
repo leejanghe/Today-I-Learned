@@ -1,4 +1,4 @@
-# Final_Project_dev #.12~16 (10.30~11.3)
+# Final_Project_dev #.12 ~ 16 (10.30~11.3)
 
 ---
 
