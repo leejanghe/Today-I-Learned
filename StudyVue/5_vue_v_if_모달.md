@@ -54,3 +54,18 @@ div {
   padding: 20px;
 }
 ```
+
+<br />
+
+## v-else
+
+추가적으로 v-if에 적은 조건식이 참이 아닐 경우에 v-else를 보여 줍니다. 조건에 따라서 이거 혹은 저거를 보여주고 싶을 때 사용합니다.
+
+```html
+<div v-if="1 === 2">
+    joycoding
+</div>
+<div v-else>
+    teemo
+</div>
+```
